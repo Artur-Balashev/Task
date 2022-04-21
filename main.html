@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculation</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+  </head>
+  <p>
+    Квадратное уравнение — это уравнение вида
+    <strong>ax<span class="square">2</span> + bx + c = 0</strong>, <br />где
+    <strong>x</strong> — свободная переменная, <strong>a, b, c</strong> —
+    коэффициенты, причём <strong>a</strong> не равно <strong>0</strong>.
+  </p>
+
+  <h2>Решение квадратного уравнения:</h2>
+
+  <div class="input">
+    <input type="text" id="a" size="5" placeholder="a" />x<span class="square">2</span>
+    + <input type="text" id="b" size="5" placeholder="b" />x +
+    <input type="text" id="c" size="5" placeholder="c" /> = 0
+
+    <input type="button" id="button" value="Решить" onclick="roots()">
+  </div>
+
+  <div id="message"></div>
+</html>
